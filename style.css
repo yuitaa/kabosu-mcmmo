@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+:root {
+  --color-primary: #e7e7e7;
+  --color-secondary: #c9c9c9;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.no-display {
+  display: none;
+}
+
+.p {
+  padding: 0.2rem;
+}
+
+.m {
+  margin: 0.2rem;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100dvh;
+  color: var(--color-primary);
+  background-image: url("./background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.center {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.top {
+  width: 100%;
+  height: 100dvh;
+  position: relative;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.welcome {
+  font-size: 1.2em;
+}
+
+.content {
+  color: var(--color-secondary);
+}
+
+.blur {
+  backdrop-filter: blur(20px);
+  background-color: #00000001;
+}
+
+.main {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 780px;
+}
+
+.attribute {
+  position: absolute;
+  text-align: right;
+  font-size: 1rem;
+  right: 1rem;
+  bottom: 0.2rem;
+}
+
+.leaderboard-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  padding: 1.4rem 0;
+}
+
+.leaderboard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6em 6em 1fr 1fr;
+}
+
+div.leaderboard-header>div {
+  background-color: #adadad73;
+}
+
+.leaderboard-row>div {
+  background-color: #96969650;
+}
+
+div.player-data {
+  background-color: #96969633;
+  grid-column: 1/5;
+}
+
+.leaderboard-row:has(div:hover)>.player-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player-data {
+  display: none;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill>div {
+  padding: 0 1rem;
+}
+
+.skill-name {
+  border: 1px solid var(--color-secondary);
+  border-bottom: none;
+  border-radius: 9999px;
+  min-width: 7em;
+}
+
+.right {
+  text-align: right;
+}
+
+.overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.leaderboard-row {
+  display: contents;
+  width: 100%;
+}
