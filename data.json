@@ -1,0 +1,402 @@
+[
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "hogehoge",
+    "uuid": "abcdefghijklmnopqrstuvwxyz123456",
+    "skill": [
+      {"level": 850, "rank": 3},
+      {"level": 920, "rank": 4},
+      {"level": 780, "rank": 3},
+      {"level": 1020, "rank": 4},
+      {"level": 880, "rank": 3},
+      {"level": 950, "rank": 4},
+      {"level": 820, "rank": 3},
+      {"level": 890, "rank": 4},
+      {"level": 910, "rank": 4},
+      {"level": 870, "rank": 4},
+      {"level": 800, "rank": 3},
+      {"level": 830, "rank": 3},
+      {"level": 940, "rank": 4}
+    ]
+  },
+  {
+    "level": 8000,
+    "mcid": "fugafuga",
+    "uuid": "9876543210zyxwvutsrqponmlkjihgfedcba",
+    "skill": [
+      {"level": 720, "rank": 2},
+      {"level": 880, "rank": 3},
+      {"level": 940, "rank": 4},
+      {"level": 850, "rank": 3},
+      {"level": 780, "rank": 2},
+      {"level": 910, "rank": 4},
+      {"level": 800, "rank": 2},
+      {"level": 920, "rank": 4},
+      {"level": 960, "rank": 5},
+      {"level": 890, "rank": 3},
+      {"level": 830, "rank": 2},
+      {"level": 870, "rank": 3},
+      {"level": 740, "rank": 2}
+    ]
+  }
+]

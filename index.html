@@ -4,114 +4,70 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script src="main.js?2"></script>
-    <link rel="stylesheet" href="style.css?1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
-    <title>Unrailed! Highscore</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://yuitaa.github.io/highscore/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://yuitaa.github.io/highscore/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://yuitaa.github.io/highscore/favicon-16x16.png">
-    <link rel="manifest" href="https://yuitaa.github.io/highscore/site.webmanifest">
-    <link rel="mask-icon" href="https://yuitaa.github.io/highscore/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#f9e79f">
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Kabosu mcMMO Leaderboard</title>
 
-    <meta property="og:title" content="Unrailed! Highscore">
-    <meta property="og:site_name" content="Unrailed! Highscore">
-    <meta property="og:url" content="https://yuitaa.github.io/highscore"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://yuitaa.github.io/kabosu-mcmmo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://yuitaa.github.io/kabosu-mcmmo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://yuitaa.github.io/kabosu-mcmmo/favicon-16x16.png">
+    <link rel="manifest" href="https://yuitaa.github.io/kabosu-mcmmo/site.webmanifest">
+    <link rel="mask-icon" href="https://yuitaa.github.io/kabosu-mcmmo/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#fdce10">
+
+    <meta property="og:title" content="Kabosu mcMMO Leaderboard">
+    <meta property="og:site_name" content="Kabosu mcMMO Leaderboard">
+    <meta property="og:url" content="https://yuitaa.github.io/kabosu-mcmmo" />
     <meta property="og:description" content="">
     <meta property="og:type" content="">
-    <meta property="og:image" content="https://yuitaa.github.io/highscore/android-chrome-512x512.png">
+    <meta property="og:image" content="https://yuitaa.github.io/kabosu-mcmmo/android-chrome-512x512.png">
+
 <body>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    <div class="main-container">
-        <div class="left-wrapper">
-            <div class="p-2 m-1 border filter rounded">
-                <a href="./" class="link-secondary">
-                    <p class="fs-2 filter">Filter</p>
-                </a>
-
-                <select class="form-select mb-2 search-input" aria-label="mode" id="mode">
-                    <option value="11">Endless</option>
-                    <option value="5">Time</option>
-                    <option value="1">Spooky</option>
-                    <option value="6">Quick</option>
-                    <option value="8">Sandbox</option>
-                    <option value="2">Versus</option>
-                    <option value="weeklyChallenge">Weekly-Challenge</option>
-                </select>
-
-                <select class="form-select mb-2 search-input" aria-label="difficulty" id="difficulty">
-                    <option value="0">Easy</option>
-                    <option value="1">Medium</option>
-                    <option value="2">Hard</option>
-                    <option value="3">Extreme</option>
-                </select>
-
-                <select class="form-select mb-2 search-input" aria-label="period" id="period">
-                    <option value="all">All Time</option>
-                    <option value="year">Year</option>
-                    <option value="month">Month</option>
-                    <option value="week">Week</option>
-                    <option value="day">Day</option>
-                </select>
-
-                <select class="form-select mb-2 search-input" aria-label="crashes" id="crashes">
-                    <option value="0">No checkpoints</option>
-                    <option value="1">0 Crashes</option>
-                    <option value="7">Less than 10 Crashes</option>
-                    <option value="9">Any amount of Crashes</option>
-                </select>
-
-                <hr>
-                <div class="mb-3">
-                    <label for="seed" class="form-label mb-1">Seed</label>
-                    <input type="text" class="form-control is-invalid search-input" id="seed" placeholder="Seed">
-                </div>
-
-                <hr>
-                <label for="week" class="form-label mb-1">Weekly-Challenge-week</label>
-                <select class="form-select mb-2 search-input" aria-label="week" id="week">
-                    <option value="0">Current week</option>
-                    <option value="1">1 week ago</option>
-                    <option value="2">2 weeks ago</option>
-                    <option value="3">3 weeks ago</option>
-                </select>
-
-                <hr>
-                <div class="mb-3">
-                    <label for="" class="form-label mb-1">Player ID</label>
-                    <input type="text" class="form-control is-invalid search-input" id="userid" placeholder="Player ID">
-                </div>
+    <div class="top center">
+        <div class="wrapper blur">
+            <div class="welcome" id="welcome">
+                ようこそ！
+            </div>
+            <div class="content" id="content">
+                2024年4月21日、かぼすサーバーは mcMMO レベルの初期化を発表しました。これは、かぼすサーバーが公開されてから 3 年半にわたるプレイヤーの努力と成長の記録です。
             </div>
         </div>
-        <div class="right-wrapper">
-            <div class="p-1">
-                <div class="leaderboard-container">
-                    <table id="score-table" class="border">
-                        <tr>
-                            <th>#</th>
-                            <th>Players</th>
-                            <th>Date</th>
-                            <th>Score</th>
-                            <th>Seed</th>
-                            <th>_id</th>
-                            <th>build</th>
-                        </tr>
-                    </table>
-                    <div id="dummy">
-                        <div class="loading-dummy rounded my-1"></div>
-                        <div class="loading-dummy rounded my-1"></div>
-                        <div class="loading-dummy rounded my-1"></div>
-                    </div>
+        <div class="attribute blur">
+            背景: パイオニアワールド リンデルト地方<br>
+            データは 2024-04-xx 時点のものです<br>
+            これは非公式のページです
+        </div>
+    </div>
+    <div class="main blur center">
+        <div class="leaderboard-wrapper">
+            <div class="leaderboard" id="leaderboard">
+                <div class="leaderboard-row leaderboard-header">
+                    <div class="p right">#</div>
+                    <div class="p right">Lv.</div>
+                    <div class="p">mcid</div>
+                    <div class="p overflow">uuid</div>
                 </div>
             </div>
         </div>
     </div>
+    <template id="tableTemplate">
+        <div class="leaderboard-row">
+            <div class="p right"></div>
+            <div class="p right"></div>
+            <div class="p"></div>
+            <div class="p overflow"></div>
+            <div class="p player-data"></div>
+        </div>
+    </template>
+    <template id="skillTemplate">
+        <div class="skill m">
+            <div class="skill-name">掘削</div>
+            <div class="skill-level">Lv.9999</div>
+            <div class="skill-rank">#10</div>
+        </div>
+    </template>
 </body>
 
 </html>
