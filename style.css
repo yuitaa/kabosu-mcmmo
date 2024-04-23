@@ -1,142 +1,115 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-
-:root {
-  --color-primary: #e7e7e7;
-  --color-secondary: #c9c9c9;
-}
-
 * {
   font-family: "Noto Sans JP", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 .no-display {
   display: none;
 }
 
-.p {
-  padding: 0.2rem;
-}
-
-.m {
-  margin: 0.2rem;
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+}
+
+.filter {
+  text-align: center;
+}
+
+.leaderboard-container {
+  overflow-x: auto;
+}
+table {
+  width: max-content;
   min-width: 100%;
-  min-height: 100dvh;
-  color: var(--color-primary);
-  background-image: url("./background.png");
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #fff9e0;
+}
+
+th {
+  background-color: #f9e79f;
+}
+
+@media only screen and (min-width: 800px) {
+  .main-container {
+    display: flex;
+  }
+  .left-wrapper {
+    width: 30%
+  }
+  .right-wrapper {
+    width: 70%;
+  }
+}
+
+.player::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+  margin-right: 0.3em;
 }
 
-.center {
-  display: grid;
-  justify-items: center;
-  align-items: center;
+.player-STEAM::before {
+  background-image: url("https://cdn.discordapp.com/emojis/758599875020849152.png");
+}
+.player-PS4::before {
+  background-image: url("https://cdn.discordapp.com/emojis/758599875041951785.png");
+}
+.player-NIN::before {
+  background-image: url("https://cdn.discordapp.com/emojis/758599874618064927.png");
+}
+.player-XB1::before {
+  background-image: url("https://cdn.discordapp.com/emojis/758599875037888522.png");
+}
+.player-EPIC::before {
+  background-image: url("https://cdn.discordapp.com/emojis/1005028910876082327.png");
 }
 
-.top {
-  width: 100%;
-  height: 100dvh;
-  position: relative;
-  font-size: 1.4rem;
-  text-align: center;
+.data-seed, .player:hover {
+  cursor: pointer;
+  text-decoration: underline dotted;
 }
 
-.welcome {
-  font-size: 1.2em;
+.data-seed {
+  color: #777;
 }
 
-.content {
-  color: var(--color-secondary);
+.loading-dummy {
+  background: linear-gradient(223deg, #fff9e0, #f9e79f);
+  background-size: 400% 400%;
+  height: 2rem;
+
+  -webkit-animation: dummy 4s ease infinite;
+  -moz-animation: dummy 4s ease infinite;
+  animation: dummy 4s ease infinite;
 }
 
-.blur {
-  backdrop-filter: blur(20px);
-  background-color: #00000001;
+@-webkit-keyframes dummy {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
-
-.main {
-  width: 100%;
+@-moz-keyframes dummy {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
-
-.wrapper {
-  max-width: 780px;
-}
-
-.attribute {
-  position: absolute;
-  text-align: right;
-  font-size: 1rem;
-  right: 1rem;
-  bottom: 0.2rem;
-}
-
-.leaderboard-wrapper {
-  width: 100%;
-  max-width: 1200px;
-  padding: 1.4rem 0;
-}
-
-.leaderboard {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 6em 6em 1fr 1fr;
-}
-
-div.leaderboard-header>div {
-  background-color: #adadad73;
-}
-
-.leaderboard-row>div {
-  background-color: #96969650;
-}
-
-div.player-data {
-  background-color: #96969633;
-  grid-column: 1/5;
-}
-
-.leaderboard-row:has(div:hover)>.player-data {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.player-data {
-  display: none;
-}
-
-.skill {
-  text-align: center;
-}
-
-.skill>div {
-  padding: 0 1rem;
-}
-
-.skill-name {
-  border: 1px solid var(--color-secondary);
-  border-bottom: none;
-  border-radius: 9999px;
-  min-width: 7em;
-}
-
-.right {
-  text-align: right;
-}
-
-.overflow {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.leaderboard-row {
-  display: contents;
-  width: 100%;
+@keyframes dummy {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
