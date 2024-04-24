@@ -21,7 +21,6 @@ function createTableRow(data, rank) {
   out.querySelectorAll("div.p")[0].textContent = rank;
   out.querySelectorAll("div.p")[1].textContent = data["level"];
   out.querySelectorAll("div.p")[2].textContent = data["mcid"];
-  out.querySelectorAll("div.p")[3].textContent = data["uuid"];
 
   for (let i in skills) {
     const skillElement = skillTemplate.content.cloneNode(true);
@@ -38,13 +37,15 @@ function createTableRow(data, rank) {
 }
 
 window.onload = () => {
-fetch("./data.json")
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-    for (let i in data) {
-      document.getElementById("leaderboard").appendChild(createTableRow(data[i], i))
-    }
-  })
-}
+  fetch("./data.json")
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      for (let i in data) {
+        document
+          .getElementById("leaderboard")
+          .appendChild(createTableRow(data[i], parseInt(i) + 1));
+      }
+    });
+};

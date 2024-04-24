@@ -27,6 +27,7 @@ body {
   min-width: 100%;
   min-height: 100svh;
   color: var(--color-primary);
+  background-color: #000000;
   background-image: url("./background.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -86,7 +87,7 @@ body {
 .leaderboard {
   width: 100%;
   display: grid;
-  grid-template-columns: 6em 6em 1fr 1fr;
+  grid-template-columns: auto auto 1fr;
 }
 
 div.leaderboard-header>div {
@@ -99,7 +100,7 @@ div.leaderboard-header>div {
 
 div.player-data {
   background-color: #96969633;
-  grid-column: 1/5;
+  grid-column: 1/4;
 }
 
 .leaderboard-row:has(div:hover)>.player-data {
@@ -129,12 +130,6 @@ div.player-data {
 
 .right {
   text-align: right;
-}
-
-.overflow {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .leaderboard-row {
